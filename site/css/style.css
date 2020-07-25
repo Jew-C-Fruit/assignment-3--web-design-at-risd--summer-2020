@@ -1,0 +1,20 @@
+main{
+   margin-left: 300px;
+   margin-right: 300px;
+}
+img{
+   width:600px;
+   margin:auto;
+}
+p::after{
+   content: "\A"
+}
+
+p{
+   margin-bottom:16px;
+}
+.menu{
+   position:fixed;
+   left:0;
+   top:.5vh;
+}
