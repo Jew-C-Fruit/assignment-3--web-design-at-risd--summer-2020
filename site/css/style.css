@@ -1,8 +1,11 @@
+body{
+   background-color: rgb(250,222,162);
+}
 main{
    margin-left: 20%;
    margin-right: 20%;
    margin-bottom:150px;
-   font-family: 'quicksand', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    font-size: 1.5em;
    font-weight: 400; 
    line-height: 1.5em;
@@ -21,39 +24,50 @@ p::after{
 p{
    margin-bottom:16px;
 }
+h1{
+   font-size: 3rem;
+   font-weight:700;
+   padding-bottom: 50px;
+   text-align:center;
+}
+h2{
+   font-size:2.5rem;
+   margin-bottom: 20px;
+}
 h3{
-   margin-bottom:16px;
+   font-size:1.5rem;
+   margin-bottom:20px;
+   text-align: center;
 }
 .menu{
    position:fixed;
    display:flex;
    flex-direction:column;
-   background-color: grey;
-   width: 180px;
+   width: 205px;
+   padding-bottom: 20px;
+}
+
+.menu>p{
+   margin-top:20px;
+   font-size: 3em;
    padding-left: 20px;
 
-   padding-bottom: 20px;
-   height:100%;
 }
 nav>p{
    justify-content: space-around;
    flex-direction:column;
-}
-.menu>p{
-   margin-top:20px;
-   font-size: 3em;
-
-}
-nav>p{
    font-size: 1.5em;
-   line-height: 2em;
+   line-height: 8vh;
    background-color:grey;
+   padding-left: 20px;
+   
    transition:250ms;
+   margin:0;
    
 }
 nav>p:hover{
    background-color:yellow;
-   width:200px;
-padding-left:20px;
+   width:185px;
+   padding-left:20px;
 
 }
