@@ -1,10 +1,14 @@
 main{
    margin-left: 300px;
    margin-right: 300px;
+   margin-bottom:150px;
 }
 img{
    width:600px;
-   margin:auto;
+   position:relative;
+   left: calc(50% - 300px);
+   margin-bottom:50px;
+   margin-top:50px;
 }
 p::after{
    content: "\A"
@@ -13,8 +17,18 @@ p::after{
 p{
    margin-bottom:16px;
 }
+h3{
+   margin-bottom:16px;
+}
 .menu{
    position:fixed;
    left:0;
-   top:.5vh;
+   background-color: grey;
+   width: 150px;
+}
+.menu>p{
+   font-size: 3em;
+}
+ul{
+   font-size: 2em;
 }
