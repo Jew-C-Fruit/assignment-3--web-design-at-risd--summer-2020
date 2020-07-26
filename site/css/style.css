@@ -1,7 +1,10 @@
 main{
-   margin-left: 300px;
-   margin-right: 300px;
+   margin-left: 20%;
+   margin-right: 20%;
    margin-bottom:150px;
+   font-family: 'quicksand', sans-serif;
+   font-size: 1.4em;
+   font-weight: 400; 
 }
 img{
    width:600px;
@@ -25,10 +28,21 @@ h3{
    left:0;
    background-color: grey;
    width: 150px;
+   padding-left: 20px;
+   padding-right: 35px;
+   padding-bottom: 20px;
+
 }
 .menu>p{
+   margin-top:20px;
    font-size: 3em;
 }
-ul{
-   font-size: 2em;
+li{
+   font-size: 1.5em;
+   line-height: 5vh;
+   background-color:grey;
+   transition:350ms;
+}
+li:hover{
+   background-color:yellow;
 }
