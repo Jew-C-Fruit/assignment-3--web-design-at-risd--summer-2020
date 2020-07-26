@@ -3,8 +3,9 @@ main{
    margin-right: 20%;
    margin-bottom:150px;
    font-family: 'quicksand', sans-serif;
-   font-size: 1.4em;
+   font-size: 1.5em;
    font-weight: 400; 
+   line-height: 1.5em;
 }
 img{
    width:600px;
@@ -25,24 +26,34 @@ h3{
 }
 .menu{
    position:fixed;
-   left:0;
+   display:flex;
+   flex-direction:column;
    background-color: grey;
-   width: 150px;
+   width: 180px;
    padding-left: 20px;
-   padding-right: 35px;
-   padding-bottom: 20px;
 
+   padding-bottom: 20px;
+   height:100%;
+}
+nav>p{
+   justify-content: space-around;
+   flex-direction:column;
 }
 .menu>p{
    margin-top:20px;
    font-size: 3em;
+
 }
-li{
+nav>p{
    font-size: 1.5em;
-   line-height: 5vh;
+   line-height: 2em;
    background-color:grey;
-   transition:350ms;
+   transition:250ms;
+   
 }
-li:hover{
+nav>p:hover{
    background-color:yellow;
+   width:200px;
+padding-left:20px;
+
 }
