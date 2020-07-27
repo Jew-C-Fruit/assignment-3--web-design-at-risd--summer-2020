@@ -14,17 +14,23 @@ section{
    width:600px;
    left: calc(50% - 202px);
    margin-bottom:50px;
-   margin-top:50px;
+   padding-top:50px;
 }
 section>img{
    width:100%
 }
 section>p{
+   color:black;
+   z-index: 1;
+   line-height: 40px;
    position:absolute;
    bottom: -50px;
-   background-image:linear-gradient(white, transparent);
+   font-size:1.5rem;
+   font-family: 'Montserrat', sans-serif;
+   /*background-image:linear-gradient(transparent, white);*/
+   background-color: rgba(255,255,255,.6);
    width: 600px;
-   height:100px;
+   height: 50px;
    text-align:center;
    opacity:0;
    transition:250ms;
@@ -33,11 +39,15 @@ section:hover>p{
    opacity:1;
    bottom:0;
 }
+section+p{
+   position:relative;
+}
 p::after{ content: "\A" }
 main>p{ margin-bottom:30px; }
 h1{
    font-size: 3rem;
-   font-weight:800;
+   line-height: 3.5rem;
+   font-weight:600;
    padding-bottom: 50px;
    text-align:center;
    
@@ -61,6 +71,7 @@ h3{
    flex-direction:column;
    width: 205px;
    font-family:'montserrat',sans-serif;
+   margin-top: 0;
 }
 .menu>p{
    padding-top:30px;
